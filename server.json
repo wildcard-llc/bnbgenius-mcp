@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.wildcard-llc/bnbgenius",
+  "title": "BnBGenius MCP for Airbnb hosts",
+  "description": "Read-only access to a short-term-rental host's Airbnb and VRBO data in BnBGenius: listings, reservations, guest messages, reviews and upsells.",
+  "version": "1.0.0",
+  "websiteUrl": "https://bnbgenius.ai",
+  "repository": {
+    "url": "https://github.com/wildcard-llc/bnbgenius-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://my.bnbgenius.ai/mcp"
+    }
+  ]
+}
